@@ -3,7 +3,7 @@ Arquivos gráficos e de imagem do site e organização.
 
 <br />
 <p align="center">
-    <img src="./logo.png" alt="Brasil API">
+    <img src="./logo.png" height="400" alt="Brasil API">
 </p>
 
 A ideia por trás da logo é que ela tenha a icônica bandeira do Brasil representando a letra `A` e o símbolo de PI (`π`), nos remetendo à `A+π(PI)` ou `API`.
