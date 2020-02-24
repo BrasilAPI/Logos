@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="680" height="745.731" viewBox="0 0 680 745.731">
+  <defs>
+    <filter id="Subtração_1" x="0" y="86" width="585.001" height="564.002" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur"/>
+      <feFlood flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Interseção_1" x="97" y="410" width="390" height="240" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur-2"/>
+      <feFlood flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="π" x="285" y="0" width="395" height="736" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur-3"/>
+      <feFlood flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_1" data-name="Grupo 1" transform="translate(-97 23)">
+    <g transform="matrix(1, 0, 0, 1, 97, -23)" filter="url(#Subtração_1)">
+      <path id="Subtração_1-2" data-name="Subtração 1" d="M495,474H397A150.17,150.17,0,0,0,247,324c-82.71,0-150,67.29-150,150H0L247.5,0,495,474Z" transform="translate(45 121)" fill="#ff0"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 97, -23)" filter="url(#Interseção_1)">
+      <path id="Interseção_1-2" data-name="Interseção 1" d="M97,474a150,150,0,1,1,300,0Z" transform="translate(45 121)" fill="#07f"/>
+    </g>
+    <g id="Elipse_1" data-name="Elipse 1" transform="translate(239 422)" fill="none" stroke="#707070" stroke-width="1">
+      <circle cx="150" cy="150" r="150" stroke="none"/>
+      <circle cx="150" cy="150" r="149.5" fill="none"/>
+    </g>
+    <line id="Linha_1" data-name="Linha 1" x2="77" transform="translate(637.5 572.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Linha_2" data-name="Linha 2" x1="1" y2="434" transform="translate(714.5 288.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Linha_3" data-name="Linha 3" x2="325" y2="624" transform="translate(389.5 98.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <path id="Caminho_3" data-name="Caminho 3" d="M572.5,0H-1.5" transform="translate(142.5 288.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <g transform="matrix(1, 0, 0, 1, 97, -23)" filter="url(#π)">
+      <text id="π-2" data-name="π" transform="translate(330 559)" fill="#007a0c" font-size="486" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">π</tspan></text>
+    </g>
+  </g>
+</svg>
